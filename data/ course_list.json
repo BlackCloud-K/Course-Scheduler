@@ -301,9 +301,7 @@
           "Fall",
           "Spring"
         ],
-        "conflict": [
-          "CSCI-UA.0061"
-        ]
+        "conflict": []
       },
       "CSCI-UA.0469": {
         "name": "NATURAL LANGUAGE PROCESSING",
