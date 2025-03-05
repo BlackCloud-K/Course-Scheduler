@@ -1,0 +1,26 @@
+{
+    "cs_major": [
+      [
+        "Mandatory",
+        "CSCI-UA.0101",
+        "CSCI-UA.0102",
+        "CSCI-UA.0201",
+        "CSCI-UA.0202",
+        "CSCI-UA.0310",
+        "MATH-UA.0121",
+        "MATH-UA.0120"
+      ],
+      [
+        "Choose 5 courses (at most 2 math course)",
+        "CSCI-UA.04xx",
+        "CSCI-UA.04xx",
+        "CSCI-UA.04xx",
+        "CSCI-UA.04xx",
+        "CSCI-UA.04xx",
+        "MATH-UA.0122",
+        "MATH-UA.0140",
+        "MATH-UA.0185"
+      ]
+    ]
+  }
+  

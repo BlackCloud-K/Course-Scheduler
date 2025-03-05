@@ -1,518 +1,526 @@
 {
-    "course_list": {
-      "CORE-UA.0109": {
-        "name": "QUANTITATIVE REASONING: MATHEMATICS & COMPUTING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Permission of the department"
-          ]
-        ],
-        "season": [
-          "Fall"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0002": {
-        "name": "INTRODUCTION TO COMPUTER PROGRAMMING (NO PRIOR EXPERIENCE)",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Three years of high school mathematics or equivalent"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": [
-          "CSCI-UA.0101",
-          "CSCI-UA.0003"
-        ]
-      },
-      "CSCI-UA.0003": {
-        "name": "INTRODUCTION TO COMPUTER PROGRAMMING (LIMITED PRIOR EXPERIENCE)",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Limited programming experience",
-            "AP Computer Science exam (any score)",
-            "DS-UA.0111"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": [
-          "CSCI-UA.0101",
-          "CSCI-UA.0002"
-        ]
-      },
-      "CSCI-UA.0004": {
-        "name": "INTRODUCTION TO WEB DESIGN & COMPUTER PRINCIPLES",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Three years of high school mathematics or equivalent"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0060": {
-        "name": "DATABASE DESIGN AND IMPLEMENTATION",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0002",
-            "CSCI-UA.0003"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": [
-          "CSCI-UA.0479"
-        ]
-      },
-      "CSCI-UA.0061": {
-        "name": "WEB DEVELOPMENT AND PROGRAMMING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0002",
-            "CSCI-UA.0003"
-          ],
-          [
-            "CSCI-UA.0004"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": [
-          "CSCI-UA.0467"
-        ]
-      },
-      "CSCI-UA.0101": {
-        "name": "INTRODUCTION TO COMPUTER SCIENCE",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0002",
-            "CSCI-UA.0003",
-            "AP Computer Science exam score of 3",
-            "Departmental permission by placement exam"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0102": {
-        "name": "DATA STRUCTURES",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0101",
-            "AP Computer Science exam score of 4 or 5"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0201": {
-        "name": "COMPUTER SYSTEMS ORGANIZATION",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0102"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0202": {
-        "name": "OPERATING SYSTEMS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0310": {
-        "name": "BASIC ALGORITHMS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0102"
-          ],
-          [
-            "MATH-UA.0120"
-          ],
-          [
-            "MATH-UA.0121",
-            "MATH-UA.0211"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring",
-          "Summer"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0330": {
-        "name": "INTRODUCTION TO COMPUTER SIMULATION",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "MATH-UA.0121",
-            "MATH-UA.0212"
-          ],
-          [
-            "PHYS-UA.0011"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0380": {
-        "name": "TOPICS OF GENERAL COMPUTING INTEREST",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Topics determine prerequisites"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0381": {
-        "name": "PROGRAMMING TOOLS FOR THE DATA SCIENTIST",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "DS-UA.0111",
-            "Equivalent Python"
-          ],
-          [
-            "CSCI-UA.0002",
-            "CSCI-UA.0003"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0421": {
-        "name": "NUMERICAL COMPUTING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ],
-          [
-            "MATH-UA.0121",
-            "MATH-UA.0211",
-            "MATH-UA.0212"
-          ],
-          [
-            "MATH-UA.0140",
-            "Permission of instructor"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0430": {
-        "name": "AGILE SOFTWARE DEVELOPMENT AND DEVOPS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0453": {
-        "name": "THEORY OF COMPUTATION",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0310"
-          ],
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0467": {
-        "name": "APPLIED INTERNET TECHNOLOGY",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0469": {
-        "name": "NATURAL LANGUAGE PROCESSING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0470": {
-        "name": "OBJECT-ORIENTED PROGRAMMING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Fall"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0472": {
-        "name": "ARTIFICIAL INTELLIGENCE",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ],
-          [
-            "CSCI-UA.0310"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0473": {
-        "name": "FUNDAMENTALS OF MACHINE LEARNING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0102"
-          ],
-          [
-            "MATH-UA.0140"
-          ],
-          [
-            "MATH-UA.0185",
-            "MATH-UA.0333",
-            "MATH-UA.0334",
-            "MATH-UA.0338",
-            "MA-UY.2224"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0474": {
-        "name": "SOFTWARE ENGINEERING",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0475": {
-        "name": "PREDICTIVE ANALYTICS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201"
-          ],
-          [
-            "CSCI-UA.0310"
-          ],
-          [
-            "MATH-UA.0140",
-            "MATH-UA.0148"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0476": {
-        "name": "PROCESSING BIG DATA FOR ANALYTICS APPLICATIONS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0201",
-            "CSCI-UA.0310"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0478": {
-        "name": "INTRODUCTION TO CRYPTOGRAPHY",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0310"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0479": {
-        "name": "DATA MANAGEMENT AND ANALYSIS",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "CSCI-UA.0102"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0480": {
-        "name": "SPECIAL TOPICS IN COMPUTER SCIENCE",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Topics determine prerequisites"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0490": {
-        "name": "SPECIAL TOPICS IN PROGRAMMING LANGUAGES",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Topics determine prerequisites"
-          ]
-        ],
-        "season": [
-          "Fall",
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0520": {
-        "name": "UNDERGRADUATE RESEARCH",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Permission of the department"
-          ]
-        ],
-        "season": [
-          "Fall"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0521": {
-        "name": "UNDERGRADUATE RESEARCH",
-        "credit": 4,
-        "prerequisite": [
-          [
-            "Permission of the department"
-          ]
-        ],
-        "season": [
-          "Spring"
-        ],
-        "conflict": []
-      },
-      "CSCI-UA.0897": {
-        "name": "INTERNSHIP",
-        "credit": 1,
-        "prerequisite": [
-          [
-            "Restricted to declared computer science majors"
-          ]
-        ],
-        "season": [
-          "Fall"
-        ],
-        "conflict": []
-      }
-    }
+  "CORE-UA.0109": {
+    "name": "QUANTITATIVE REASONING: MATHEMATICS & COMPUTING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Permission of the department"
+      ]
+    ],
+    "season": [
+      "Fall"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0002": {
+    "name": "INTRODUCTION TO COMPUTER PROGRAMMING (NO PRIOR EXPERIENCE)",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Three years of high school mathematics or equivalent"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": [
+      "CSCI-UA.0101",
+      "CSCI-UA.0003"
+    ]
+  },
+  "CSCI-UA.0003": {
+    "name": "INTRODUCTION TO COMPUTER PROGRAMMING (LIMITED PRIOR EXPERIENCE)",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Limited programming experience",
+        "AP Computer Science exam (any score)",
+        "DS-UA.0111"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": [
+      "CSCI-UA.0101",
+      "CSCI-UA.0002"
+    ]
+  },
+  "CSCI-UA.0004": {
+    "name": "INTRODUCTION TO WEB DESIGN & COMPUTER PRINCIPLES",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Three years of high school mathematics or equivalent"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0060": {
+    "name": "DATABASE DESIGN AND IMPLEMENTATION",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0002",
+        "CSCI-UA.0003"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": [
+      "CSCI-UA.0479"
+    ]
+  },
+  "CSCI-UA.0061": {
+    "name": "WEB DEVELOPMENT AND PROGRAMMING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0002",
+        "CSCI-UA.0003"
+      ],
+      [
+        "CSCI-UA.0004"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": [
+      "CSCI-UA.0467"
+    ]
+  },
+  "CSCI-UA.0101": {
+    "name": "INTRODUCTION TO COMPUTER SCIENCE",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0002",
+        "CSCI-UA.0003",
+        "AP Computer Science exam score of 3",
+        "Departmental permission by placement exam"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0102": {
+    "name": "DATA STRUCTURES",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0101",
+        "AP Computer Science exam score of 4 or 5"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0201": {
+    "name": "COMPUTER SYSTEMS ORGANIZATION",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0102"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0202": {
+    "name": "OPERATING SYSTEMS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0310": {
+    "name": "BASIC ALGORITHMS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0102"
+      ],
+      [
+        "MATH-UA.0120"
+      ],
+      [
+        "MATH-UA.0121",
+        "MATH-UA.0211"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring",
+      "Summer"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0330": {
+    "name": "INTRODUCTION TO COMPUTER SIMULATION",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "MATH-UA.0121",
+        "MATH-UA.0212"
+      ],
+      [
+        "PHYS-UA.0011"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0380": {
+    "name": "TOPICS OF GENERAL COMPUTING INTEREST",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Topics determine prerequisites"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0381": {
+    "name": "PROGRAMMING TOOLS FOR THE DATA SCIENTIST",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "DS-UA.0111",
+        "Equivalent Python"
+      ],
+      [
+        "CSCI-UA.0002",
+        "CSCI-UA.0003"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0421": {
+    "name": "NUMERICAL COMPUTING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ],
+      [
+        "MATH-UA.0121",
+        "MATH-UA.0211",
+        "MATH-UA.0212"
+      ],
+      [
+        "MATH-UA.0140",
+        "Permission of instructor"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0430": {
+    "name": "AGILE SOFTWARE DEVELOPMENT AND DEVOPS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0453": {
+    "name": "THEORY OF COMPUTATION",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0310"
+      ],
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0467": {
+    "name": "APPLIED INTERNET TECHNOLOGY",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0469": {
+    "name": "NATURAL LANGUAGE PROCESSING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0470": {
+    "name": "OBJECT-ORIENTED PROGRAMMING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Fall"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0472": {
+    "name": "ARTIFICIAL INTELLIGENCE",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ],
+      [
+        "CSCI-UA.0310"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0473": {
+    "name": "FUNDAMENTALS OF MACHINE LEARNING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0102"
+      ],
+      [
+        "MATH-UA.0140"
+      ],
+      [
+        "MATH-UA.0185",
+        "MATH-UA.0333",
+        "MATH-UA.0334",
+        "MATH-UA.0338",
+        "MA-UY.2224"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0474": {
+    "name": "SOFTWARE ENGINEERING",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0475": {
+    "name": "PREDICTIVE ANALYTICS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201"
+      ],
+      [
+        "CSCI-UA.0310"
+      ],
+      [
+        "MATH-UA.0140",
+        "MATH-UA.0148"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0476": {
+    "name": "PROCESSING BIG DATA FOR ANALYTICS APPLICATIONS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0201",
+        "CSCI-UA.0310"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0478": {
+    "name": "INTRODUCTION TO CRYPTOGRAPHY",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0310"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0479": {
+    "name": "DATA MANAGEMENT AND ANALYSIS",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "CSCI-UA.0102"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0480": {
+    "name": "SPECIAL TOPICS IN COMPUTER SCIENCE",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Topics determine prerequisites"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0490": {
+    "name": "SPECIAL TOPICS IN PROGRAMMING LANGUAGES",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Topics determine prerequisites"
+      ]
+    ],
+    "season": [
+      "Fall",
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0520": {
+    "name": "UNDERGRADUATE RESEARCH",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Permission of the department"
+      ]
+    ],
+    "season": [
+      "Fall"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0521": {
+    "name": "UNDERGRADUATE RESEARCH",
+    "credit": 4,
+    "prerequisite": [
+      [
+        "Permission of the department"
+      ]
+    ],
+    "season": [
+      "Spring"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.0897": {
+    "name": "INTERNSHIP",
+    "credit": 1,
+    "prerequisite": [
+      [
+        "Restricted to declared computer science majors"
+      ]
+    ],
+    "season": [
+      "Fall"
+    ],
+    "conflict": []
+  },
+  "CSCI-UA.04xx": {
+    "name": "Elective",
+    "credit": 4,
+    "prerequisite": [
+    ],
+    "season": [
+      "Fall", "Spring"
+    ],
+    "conflict": []
   }
+}
   
