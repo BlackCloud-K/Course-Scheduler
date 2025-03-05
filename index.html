@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left-panel, .right-panel {
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .left-panel {
+            border-right: 2px solid #ddd;
+            margin-right: 20px;
+            flex: 2;
+        }
+        .right-panel {
+            display: flex; 
+            flex-direction: column;
+            gap: 15px;
+            flex: 1;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            border-top: 2px solid #ddd;
+            background-color: white;
+            margin-top: 20px;
+        }
+        .semester-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .semester {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .course {
+            padding: 5px;
+            background: #e9ecef;
+            border-radius: 3px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .smallpanel {
+            padding: 15px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>XX's Course Schedule</h2>
+            <div id="schedule" class="semester-container">
+                <div class="semester" id="year1-sem1">Freshman - Semester 1
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year1-sem2">Freshman - Semester 2
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year2-sem1">Sophomore - Semester 1
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year2-sem2">Sophomore - Semester 2
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year3-sem1">Junior - Semester 1
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year3-sem2">Junior - Semester 2
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year4-sem1">Senior - Semester 1
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+                <div class="semester" id="year4-sem2">Senior - Semester 2
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="right-panel">
+            <h2>Course Selection & Progress</h2>
+            <div class="smallpanel progress"><h3></h3></div>
+            <div class="smallpanel ap-credit">
+                <h3>AP/Placement Credits</h3>
+                <ul>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                </ul>
+            
+            
+            </div>
+            <div class="smallpanel required-courses">
+                <h3>Required Courses</h3>
+                <ul>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                </ul>
+            </div>
+            <div class="smallpanel elective-courses">
+                <h3>Elective Courses</h3>
+                <ul>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <p>&copy; 2025 Course Selection System. All rights reserved.</p>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
