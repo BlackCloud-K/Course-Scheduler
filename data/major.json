@@ -1,0 +1,7 @@
+{
+    "cs_major":[
+        ["Mandatory", "class1", "class2"],
+        ["2 choose 1", "class1", "class2"],
+        ["3 choose 1", "class1", "class2", "class3"]
+    ]
+}
