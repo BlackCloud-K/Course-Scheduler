@@ -6,11 +6,13 @@ async function getCourseById(id) {
         }
         const courses = await response.json();
 
-        const course = courses.find(course => course.id === id);
-        return course ? course : `${id} Course Not Found`;
+        if (courses.hasOwnProperty(id)) {
+            return courses[id];  
+        } else {
+            return `${id} not found`;
+        }
     } catch (error) {
         console.error("Error:", error);
         return null;
     }
 }
-
