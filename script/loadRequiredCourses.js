@@ -1,4 +1,4 @@
-import { getCourseById } from './script/search.js'; 
+import { getCourseById } from './search.js';
 
 
 function toTitleCase(str) {

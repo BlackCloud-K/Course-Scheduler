@@ -1,4 +1,4 @@
-async function getCourseById(id) {
+export async function getCourseById(id) {
     try {
         const response = await fetch('../data/course_list.json');
         if (!response.ok) {
