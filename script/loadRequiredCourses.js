@@ -11,10 +11,11 @@ function toTitleCase(str) {
 
 async function loadRequiredCourses() {
     try {
-
+        // Load major.json and course_list.json
         const majorResponse = await fetch("data/major.json");
+
         if (!majorResponse.ok) {
-            throw new Error("Failed to fetch major.json.");
+            throw new Error("Failed to fetch JSON data.");
         }
 
         const majorData = await majorResponse.json();
@@ -31,10 +32,8 @@ async function loadRequiredCourses() {
             const courseInfo = await getCourseById(courseID);
 
             if (courseInfo) {
-                const listItem = document.createElement("li");
 
-                // Set inner text to just course name
-                listItem.innerText = courseInfo.name;
+                const listItem = document.createElement("li");
 
                 // Store additional details in dataset attributes
                 listItem.innerText = toTitleCase(courseInfo.name);
