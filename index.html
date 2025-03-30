@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Selection</title>
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 <body>
     <div class="container">
@@ -13,62 +12,41 @@
             <h2>XX's Course Schedule</h2>
             <div id="schedule" class="semester-container">
                 <div class="semester" id="year1-sem1">Freshman - Semester 1
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list">
+                        <li class="drop-slot" id="slot-1"></li>
+                        <li class="drop-slot" id="slot-2"></li>
+                        <li class="drop-slot" id="slot-3"></li>
+                        <li class="drop-slot" id="slot-4"></li>
+                    </ul>
                 </div>
+                
                 <div class="semester" id="year1-sem2">Freshman - Semester 2
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year2-sem1">Sophomore - Semester 1
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year2-sem2">Sophomore - Semester 2
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year3-sem1">Junior - Semester 1
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year3-sem2">Junior - Semester 2
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year4-sem1">Senior - Semester 1
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
                 <div class="semester" id="year4-sem2">Senior - Semester 2
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
-                    <div class="course" data-credit="4" data-prerequisite="">Intro to Computer Science</div>
+                    <ul class="course-list"></ul>
                 </div>
             </div>
         </div>
 
-    
         <div class="right-panel">
             <h2>Course Selection & Progress</h2>
             <div class="smallpanel progress"><h3>Progress Bar: 50%</h3></div>
-
-
 
             <div class="smallpanel ap-credit">
                 <h3>AP/Placement Credits</h3>
@@ -78,41 +56,29 @@
                     <li>a</li>
                     <li>a</li>
                 </ul>
-            
-            
             </div>
+            
             <div class="smallpanel required-courses">
                 <h3>Required Courses</h3>
                 <ul id="required-courses-list">
                     <!-- Courses will be loaded dynamically here -->
                 </ul>
             </div>
+
             <div class="smallpanel elective-courses">
                 <h3>Elective Courses</h3>
-                <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
+                <ul id="elective-courses-list">
+                    <!-- Elective courses will be loaded dynamically here -->
                 </ul>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
     <div class="footer">
         <p>&copy; 2025 Course Selection System. All rights reserved.</p>
     </div>
 
-
-
-    </div>
     <script type="module" src="script/loadRequiredcourses.js"></script>
+    <script type="module" src="script/script.js"></script>
 </body>
 </html>

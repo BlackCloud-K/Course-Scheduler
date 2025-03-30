@@ -1,5 +1,10 @@
 import { getCourseById } from './search.js';
+
 function toTitleCase(str) {
+    if (typeof str !== 'string') {
+        console.warn("Invalid string:", str);
+        return ""; // Return an empty string or a default value
+    }
     return str
         .toLowerCase()
         .split(" ")
@@ -9,7 +14,6 @@ function toTitleCase(str) {
 
 async function loadRequiredCourses() {
     try {
-        // Load major.json and course_list.json
         const majorResponse = await fetch("data/major.json");
 
         if (!majorResponse.ok) {
@@ -17,34 +21,33 @@ async function loadRequiredCourses() {
         }
 
         const majorData = await majorResponse.json();
-
-        // Extract CS major required courses
-        const requiredCourses = majorData.cs_major[0].slice(1); // Skip first element "Mandatory"
-
-        // Get the UL element to populate
+        const requiredCourses = majorData.cs_major[0].slice(1);
         const requiredCoursesList = document.getElementById("required-courses-list");
-        requiredCoursesList.innerHTML = ""; // Clear existing list
+        requiredCoursesList.innerHTML = "";
 
-        // Loop through each required course
         for (const courseID of requiredCourses) {
             const courseInfo = await getCourseById(courseID);
 
             if (courseInfo) {
-
                 const listItem = document.createElement("li");
+                listItem.className = "course-item";
+                
+                const courseDiv = document.createElement("div");
+                courseDiv.className = "course";
+                courseDiv.id = courseID;
+                courseDiv.setAttribute("draggable", "true");
+                courseDiv.innerText = toTitleCase(courseInfo.name);
 
-                // Store additional details in dataset attributes
-                listItem.innerText = toTitleCase(courseInfo.name);
-                listItem.dataset.credit = courseInfo.credit;
-                listItem.dataset.prerequisite = courseInfo.prerequisite.flat().join(", ") || "None";
-                listItem.dataset.season = courseInfo.season.join(", ");
-                listItem.dataset.conflict = courseInfo.conflict.join(", ") || "None";
-
+                listItem.appendChild(courseDiv);
                 requiredCoursesList.appendChild(listItem);
             } else {
                 console.warn(`Course ${courseID} not found in course_list.json`);
             }
         }
+
+        // Emit a custom event to reinitialize drag-and-drop after loading
+        const event = new Event("coursesLoaded");
+        document.dispatchEvent(event);
 
     } catch (error) {
         console.error("Error loading required courses:", error);
